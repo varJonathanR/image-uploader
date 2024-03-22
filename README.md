@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://image-uploader-flax.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://legacy.devchallenges.io/solutions/OFa2rNfWdY7umllJrKla">
       Solution
     </a>
     <span> | </span>
