@@ -13,7 +13,7 @@ export default function Upload({ file, setFile, setImageUrl, setUpload }: Props)
     const [validFile, setValidFile] = useState<boolean>(true);
     const onDrop = useCallback((acceptedFiles: any) => {
         setFile(acceptedFiles[0]);
-      }, []);
+      }, [setFile]);
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop});
 
     async function handleSubmit (e: any) {
@@ -47,7 +47,7 @@ export default function Upload({ file, setFile, setImageUrl, setUpload }: Props)
                 <p className='text-gray-600'>Drag & Drop your image here</p>
             </div>
             <span className='text-gray-600'>or</span>
-            <input type="file" onChange={e => setFile(e.target.files[0])} />
+            <input type="file" onChange={(e: any) => setFile(e.target.files[0])} />
             <button className="bg-sky-600 text-white rounded-md px-4 py-2">Send</button>
             <span className='text-red-600'>{ !validFile ? "File should be .webp" : "" }</span>
         </form>

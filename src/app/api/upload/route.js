@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { writeFile } from "fs/promises";
-import path from "path";
+/* import { writeFile } from "fs/promises";
+import path from "path"; */
 import { v2 as cloudinary } from "cloudinary";
 
 require("dotenv").config();
