@@ -34,7 +34,7 @@
 
 ## Overview
 
-![Image Uploader Preview](https://github.com/varJonathanR/image-uploader)
+![Image Uploader Preview](https://github.com/varJonathanR/image-uploader/blob/main/public/image-uploader_preview.png)
 
 This project allows you to upload images to a cloud (Cloudinary) and obtain a URL to share it with anyone you want. Built with Next.js, the uploaded images will not be used inappropriately. For optimization and space reasons, only .webp images are allowed.
 
